@@ -1,14 +1,16 @@
 #!/bin/bash
 
-#WATCH_DIR="/home/khallaf/devops-automation-toolkit"
+#WATCH_DIR="./"
+
+echo "Watching directory: $WATCH_DIR"
 
 inotifywait -m -r -e modify,create,delete --format '%w%f' "$WATCH_DIR" |while read FILE 
 do
-	echo "Detected change in $FILE"
+	echo "Detected change in: $FILE"
 
-	git -C "$WATCH_DIR" add .
-	git -C "$WATCH_DIR" commit -m "Auto commit: $(date '+%Y-%m-%d %H:%M:%S') - $FILE"
-	git -C "$WATCH_DIR" push origin main
+	git add .
+	git commit -m "Auto commit: $(date '+%Y-%m-%d %H:%M:%S') - $FILE"
+	git push origin main
 
 	echo "Auto-commit completed for $FILE"
 done

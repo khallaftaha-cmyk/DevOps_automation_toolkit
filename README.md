@@ -13,22 +13,22 @@ This toolkit is fully written in Bash and contains useful tools for:
 
 Perfect for students preparing for DevOps roles or internships or anyone wanting to improve Linux automation skills.
 
-## Project Structure
+## Project Structure 
 
 devops-automation-toolkit/
-| tools
-  │ auto-commit.sh
-  │ git-backup.sh
-  │ log-cleaner.sh
-  │ sys-info.sh
-  │ encrypt.sh
-  │ decrypt.sh
-  │ create-project.sh
-  │ website-status.sh
-  |
-|
-| app
-│ README.md
+- tools
+  - auto-commit.sh
+  - git-backup.sh
+  - log-cleaner.sh
+  - sys-info.sh
+  - encrypt.sh
+  - decrypt.sh
+  - create-project.sh
+  - website-status.sh
+  -
+-website_status.log
+- app
+- README.md
 
 
 All scripts are standalone and work on any Linux system (Ubuntu recommended).
@@ -46,7 +46,7 @@ Make all scripts executable:
 
 chmod +x *.sh
 
-## Tools
+*Tools
 
 1- auto-commit.sh
 

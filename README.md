@@ -39,7 +39,7 @@ All scripts are standalone and work on any Linux system (Ubuntu recommended).
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/devops-automation-toolkit.git
+git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
 cd devops-automation-toolkit
 
 Make all scripts executable:

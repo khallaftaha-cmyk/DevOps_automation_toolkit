@@ -26,7 +26,7 @@ devops-automation-toolkit/
   - create-project.sh
   - website-status.sh
   -
--website_status.log
+- website_status.log
 - app
 - README.md
 

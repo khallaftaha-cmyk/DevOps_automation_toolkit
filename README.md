@@ -1,17 +1,7 @@
 # DevOps Automation Toolkit
 
-A collection of simple but powerful automation scripts designed for beginners learning **DevOps**, **Linux**, **Bash scripting**, and **Git**.
-
-This toolkit is fully written in Bash and contains useful tools for:
-- System monitoring  
-- Log management  
-- Git automation  
-- Encryption & decryption  
-- Auto project creation  
-- Auto commit & auto push  
-- Backup utilities
-
-Perfect for students preparing for DevOps roles or internships or anyone wanting to improve Linux automation skills.
+A collection of beginner-friendly but professional DevOps automation tools written in Bash.  
+This toolkit helps automate common tasks such as Git backups, log cleanup, system monitoring, file encryption, and project creation.
 
 ## Project Structure 
 
@@ -30,132 +20,111 @@ devops-automation-toolkit/
 - app
 - README.md
 
+Designed for Linux environments (Ubuntu recommended) and ideal for learning Git, Bash scripting, system automation, and workflow optimization.
 
-All scripts are standalone and work on any Linux system (Ubuntu recommended).
+---
 
+## Tools
+
+### 1. **git-backup.sh**
+Automatically saves the current working directory into a timestamped backup folder and pushes it to GitHub.
+
+### 2. **log-cleaner.sh**
+Finds and deletes large or old log files (`*.log`) to free disk space.  
+Can be configured to clean logs older than 7 days.
+
+### 3. **website-status.sh**
+Checks if a website is up or down using `curl` and prints an easy "UP/DOWN" message.
+
+### 4. **auto-commit.sh**
+Watches the repository for changes (using `inotifywait`) and automatically:
+- adds files  
+- commits  
+- pushes to GitHub  
+Useful for DevOps automation workflows.
+
+### 5. **sys-info.sh**
+Displays system information such as:
+- uptime  
+- memory usage  
+- disk usage  
+- CPU load 
+
+### 6. **encrypt-decrypt.sh**
+Encrypts or decrypts files using OpenSSL AES-256.  
+Useful for securing sensitive configuration files.
+
+### 7. **create-project.sh**
+Automatically creates a ready-to-use project folder with:
+- src directory  
+- README  
+- .gitignore  
+- Git initialization  
+- First commit  
+
+---
+
+## Requirements
+
+These tools require a Linux environment with:
+
+- Bash (default on Linux)
+- Git
+- curl
+- inotify-tools (for `auto-commit.sh`)
+- OpenSSL (for encryption & decryption)
+
+Install missing packages:
+
+```bash
+sudo apt update
+sudo apt install git curl inotify-tools openssl
 
 ## Installation
 
 Clone the repository:
 
-```bash
-git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
+git clone https://github.com/<your-username>/devops-automation-toolkit.git
 cd devops-automation-toolkit
+
 
 Make all scripts executable:
 
 chmod +x *.sh
 
-## tools 
 
-1- auto-commit.sh
+Run a tool:
 
-Automatically commits and pushes changes whenever files in the folder are modified.
-Uses inotifywait.
+./sys-info.sh
 
-Run:
+Usage Examples:
 
+Auto-commit watcher
 ./auto-commit.sh
 
-2- log-cleaner.sh
-
-Deletes log files older than 7 days.
-
-Example:
-
-./log-cleaner.sh
-
-
-3- sys-info.sh
-
-Displays system information.
-
-Run:
-
-./sys-info.sh
-
-4- git-backup.sh
-
-Creates a backup of a folder and pushes it to a Git repository.
-
-Run:
-
-./git-backup.sh myfolder
-
-Backup will be saved as a .tar.gz file*.
-
-5- website-status.sh
-
-Checks if a website is UP or DOWN.
-
-Run:
-
+Check a website
 ./website-status.sh
 
-Outputs status code and uptime information.
+Clean logs older than 7 days
+./log-cleaner.sh 
 
-6- encrypt.sh
+Backup project
+./git-backup.sh
 
-Encrypts any file using openssl.
+Encrypt a file
+./encrypt-decrypt.sh encrypt secrets.txt
 
-Run:
+Create a new project
+./create-project.sh my-app
 
-./encrypt.sh myfile.txt encrypted.dat
+License
 
-7 -decrypt.sh
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute the scripts.
 
-Decrypts a file encrypted by encrypt.sh.
+Author
 
-Run:
-
-./decrypt.sh encrypted.dat decrypted.txt
-
-8- create-project.sh
-
-Creates a new project folder with:
-
-README.md
-
-src folder
-
-scripts folder
-
-virtual environment (optional)
-
-Run:
-
-./create-project.sh project-name
-
-*Requirements
-
-Some tools require extra packages:
-
-sudo apt update
-sudo apt install inotify-tools openssl curl
-
-*Testing
-
-Test each script:
-
-./sys-info.sh
-./log-cleaner.sh
-./website-status.sh
-./encrypt.sh test.txt secure.dat
-./decrypt.sh secure.dat output.txt
-
-## Contribute
-
-Feel free to:
-
-Add new automation scripts
-
-Improve existing ones
-
-Fix bugs
-
-## License
-
-This project is open-source and free for personal or educational use.
-
+Created by Taha Khallaf
+A beginner DevOps engineer learning automation, Bash, Linux, Git, cloud fundamentals, and CI/CD.
 If this toolkit helps you, give it a star on GitHub!
 

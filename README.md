@@ -46,7 +46,7 @@ Make all scripts executable:
 
 chmod +x *.sh
 
-*Tools
+## tools 
 
 1- auto-commit.sh
 

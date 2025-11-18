@@ -84,7 +84,7 @@ sudo apt install git curl inotify-tools openssl
 
 Clone the repository:
 
-git clone 
+git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
 cd devops-automation-toolkit
 
 

@@ -2,6 +2,7 @@
 
 A collection of beginner-friendly but professional DevOps automation tools written in Bash.  
 This toolkit helps automate common tasks such as Git backups, log cleanup, system monitoring, file encryption, and project creation.
+Designed for Linux environments (Ubuntu recommended) and ideal for learning Git, Bash scripting, system automation, and workflow optimization.
 
 ## Project Structure 
 
@@ -17,10 +18,9 @@ devops-automation-toolkit/
   - website-status.sh
   -
 - website_status.log
-- app
+- my-api
 - README.md
 
-Designed for Linux environments (Ubuntu recommended) and ideal for learning Git, Bash scripting, system automation, and workflow optimization.
 
 ---
 
@@ -84,7 +84,7 @@ sudo apt install git curl inotify-tools openssl
 
 Clone the repository:
 
-git clone https://github.com/<your-username>/devops-automation-toolkit.git
+git clone 
 cd devops-automation-toolkit
 
 

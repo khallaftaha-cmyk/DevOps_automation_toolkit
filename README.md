@@ -38,14 +38,14 @@ Checks if a website is up or down using `curl` and prints an easy "UP/DOWN" mess
 
 ### 4. **auto-commit.sh**
 Watches the repository for changes (using `inotifywait`) and automatically:
-- adds files  
-- commits  
-- pushes to GitHub  
+  - adds files  
+  - commits  
+  - pushes to GitHub  
 Useful for DevOps automation workflows.
 
 ### 5. **sys-info.sh**
 Displays system information such as:
-- uptime  
+- top processes
 - memory usage  
 - disk usage  
 - CPU load 

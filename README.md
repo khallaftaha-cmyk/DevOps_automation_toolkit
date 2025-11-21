@@ -41,6 +41,7 @@ Watches the repository for changes (using `inotifywait`) and automatically:
   - adds files  
   - commits  
   - pushes to GitHub  
+
 Useful for DevOps automation workflows.
 
 ### 5. **sys-info.sh**

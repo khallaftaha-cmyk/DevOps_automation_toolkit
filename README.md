@@ -16,7 +16,7 @@ devops-automation-toolkit/
   - decrypt.sh
   - create-project.sh
   - website-status.sh
-  -.git-backup.sh.swp
+  - git-backup.sh.swp
 - website_status.log
 - my-api
 - README.md

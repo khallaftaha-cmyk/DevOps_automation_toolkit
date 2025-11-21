@@ -58,8 +58,7 @@ Useful for securing sensitive configuration files.
 ### 7. **create-project.sh**
 Automatically creates a ready-to-use project folder with:
 - src directory  
-- README  
-- .gitignore  
+- README   
 - Git initialization  
 - First commit  
 

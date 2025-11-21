@@ -8,7 +8,7 @@ WATCH_DIR="./"
 
 
 # Loop to watch folders changes
-inoyifywait -m -r -e modify,create,delete --format '%w%f' "$WATCH_DIR" | while read FILE
+inotifywait -m -r -e modify,create,delete --format '%w%f' "$WATCH_DIR" | while read FILE
 do
 	echo "Detected change in $FILE"
 

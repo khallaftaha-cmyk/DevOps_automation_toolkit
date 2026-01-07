@@ -88,7 +88,7 @@ git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
 cd devops-automation-toolkit
 
 
-Make all scripts executable:
+## Make all scripts executable:
 
 chmod +x *.sh
 
@@ -117,10 +117,7 @@ Encrypt a file
 Create a new project
 ./create-project.sh my-app
 
-License
 
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute the scripts.
 
 Author
 

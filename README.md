@@ -76,8 +76,8 @@ These tools require a Linux environment with:
 
 Install missing packages: in the bash
 
-*sudo apt update
-*sudo apt install git curl inotify-tools openssl
+* sudo apt update
+* sudo apt install git curl inotify-tools openssl
 
 ## Installation
 
@@ -89,32 +89,32 @@ Clone the repository:
 
 ## Make all scripts executable:
 
-chmod +x *.sh
+* chmod +x *.sh
 
 
-Run a tool:
+* Run a tool:
 
-./sys-info.sh
+  * ./sys-info.sh
 
-Usage Examples:
+* Usage Examples:
 
-Auto-commit watcher
-./auto-commit.sh
+  * Auto-commit watcher: 
+    * ./auto-commit.sh
 
-Check a website
-./website-status.sh
+  * Check a website
+    * ./website-status.sh
 
-Clean logs older than 7 days
-./log-cleaner.sh 
+  * Clean logs older than 7 days
+    * ./log-cleaner.sh 
 
-Backup project
-./git-backup.sh
+  * Backup project
+    * ./git-backup.sh
 
-Encrypt a file
-./encrypt-decrypt.sh encrypt secrets.txt
+  * Encrypt a file
+    * ./encrypt-decrypt.sh encrypt secrets.txt
 
-Create a new project
-./create-project.sh my-app
+  * Create a new project
+    * ./create-project.sh my-app
 
 ---
 

@@ -1,4 +1,9 @@
 # DevOps Automation Toolkit
+![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
+![OpenSSL](https://img.shields.io/badge/OpenSSL-Security-721412?style=for-the-badge)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-0A0A0A?style=for-the-badge)
 
 A collection of beginner-friendly but professional DevOps automation tools written in Bash.  
 This toolkit helps automate common tasks such as Git backups, log cleanup, system monitoring, file encryption, and project creation.

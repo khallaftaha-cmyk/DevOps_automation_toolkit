@@ -123,9 +123,8 @@ Clone the repository:
 **Taha Khallaf**  
 DevOps Engineer & Backend Developer
 
-I designed and developed the Cloud Notes API to showcase modern backend engineering practices, including secure JWT-based authentication, asynchronous request handling, database integrity management, and Docker-based environment parity.
-
-This project serves as both a learning platform and a reference architecture for building scalable, secure backend services.
+This toolkit was created to practice and demonstrate practical DevOps automation using Bash.
+It focuses on simplifying repetitive operational tasks while reinforcing core concepts such as scripting, system observability, automation pipelines, and secure file handling.
 
 
 

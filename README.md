@@ -117,6 +117,7 @@ Encrypt a file
 Create a new project
 ./create-project.sh my-app
 
+'''
 ---
 
 ## Author

@@ -74,18 +74,17 @@ These tools require a Linux environment with:
 - inotify-tools (for `auto-commit.sh`)
 - OpenSSL (for encryption & decryption)
 
-Install missing packages:
+Install missing packages: in the bash
 
-```bash
-sudo apt update
-sudo apt install git curl inotify-tools openssl
+*sudo apt update
+*sudo apt install git curl inotify-tools openssl
 
 ## Installation
 
 Clone the repository:
 
-git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
-cd devops-automation-toolkit
+* git clone git@github.com:khallaftaha-cmyk/DevOps_automation_toolkit.git
+* cd devops-automation-toolkit
 
 
 ## Make all scripts executable:

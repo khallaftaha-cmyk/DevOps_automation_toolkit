@@ -117,9 +117,9 @@ Encrypt a file
 Create a new project
 ./create-project.sh my-app
 
+---
 
-
-Author
+## Author
 
 Created by Taha Khallaf
 A beginner DevOps engineer learning automation, Bash, Linux, Git, cloud fundamentals, and CI/CD.
